@@ -15,6 +15,6 @@ public class ProjectileMovement : MonoBehaviour
     void Update()
     {
         //shoots projectile in the direction of the enemy
-        transform.Translate(Vector3.right * Time.deltaTime * speed);
+        transform.Translate(Vector3.up * Time.deltaTime * speed);
     }
 }

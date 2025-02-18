@@ -523,9 +523,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 8634913932448118911, guid: ef26b155e253c3e4ebab334cb056711d, type: 3}
-  - {fileID: 5691254384786051706, guid: 059af65770d708c478be8f8a9bd02de1, type: 3}
-  - {fileID: 4615878049408956510, guid: bc9f3e5e53d2c6844ac71a79a048d5d9, type: 3}
+  - {fileID: 2775158292178860310, guid: d0c19c0dfd3a04c4084d7fbb203d7c3c, type: 3}
+  - {fileID: 4446085834767522429, guid: bd4a0df877e311847ad35736ffaae4fc, type: 3}
+  - {fileID: 693970296516790370, guid: 9b3daac90925fd6428b80ac5cdc114e5, type: 3}
 --- !u!4 &1866972785
 Transform:
   m_ObjectHideFlags: 0
@@ -549,10 +549,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1601891570862391156, guid: f82c53bcf37263345ac5c91da2792fc8, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 95038781032620101, guid: f82c53bcf37263345ac5c91da2792fc8, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 8876326707541039726, guid: 925e30efb102eee4aa4db24bf57d14f7, type: 3}
+>>>>>>> f7d9b06d273ab8ca48cb335adc423e6c8f1da91d
     - target: {fileID: 3901400104650827769, guid: f82c53bcf37263345ac5c91da2792fc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
